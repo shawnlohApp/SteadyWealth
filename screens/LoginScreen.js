@@ -49,3 +49,4 @@ const styles = StyleSheet.create({
   title: { fontSize: 24, fontWeight: 'bold', marginBottom: 24, textAlign: 'center' },
   input: { borderWidth: 1, borderColor: '#ccc', padding: 12, borderRadius: 8, marginBottom: 12 }
 });
+import React from 'react'; import { View, Text } from 'react-native'; export default function LoginScreen() { return <View><Text>Login</Text></View>; }
